@@ -19,7 +19,7 @@ Chơi vui · Học giỏi · <b>Biết dừng</b></p>
 
 ## Có gì trong ứng dụng
 
-**5 hòn đảo, 60 chặng chơi.** Mỗi game chia ba bậc Dễ → Vừa → Khó; bậc Khó bám
+**8 hòn đảo, 96 chặng chơi.** Mỗi game chia ba bậc Dễ → Vừa → Khó; bậc Khó bám
 sát nội dung chuẩn bị vào lớp 1.
 
 | | Game | Chặng | Nội dung |
@@ -29,6 +29,9 @@ sát nội dung chuẩn bị vào lớp 1.
 | 🔤 | Bé học chữ cái | 12 | 29 chữ tiếng Việt, **ghép vần**, phân biệt **B/D/Đ** và **P/Q** |
 | 🎨 | Bé tô màu | 10 | 9 bức tranh, 3 chặng cuối **tô theo mẫu** |
 | 🧩 | Bé xếp hình | 12 | Từ 4 mảnh tới 16 mảnh |
+| 🎵 | Nhớ dãy âm thanh | 12 | Nghe rồi bấm lại đúng thứ tự — **trí nhớ chuỗi và thính giác** |
+| 🔢 | Việc nào trước | 11 | Sắp xếp các bước: vòng đời, một ngày của bé, làm bánh |
+| 🤖 | Robot đi theo lệnh | 12 | Xếp mũi tên cho robot tới đích — **tư duy lập trình sớm** |
 
 ## Vui nhưng dừng được
 

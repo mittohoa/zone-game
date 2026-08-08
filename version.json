@@ -1,9 +1,9 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.2",
+  "versionCode": 4,
+  "versionName": "1.1.0",
   "releasedAt": "2026-08-08",
-  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.0.2/BeChoiBeHoc-1.0.2.apk",
-  "sizeBytes": 55382674,
-  "sha256": "fc5d2b2426c8a084906fe0cfef9e212dec26734819b204d63063be52b6ab3aa1",
-  "notes": "Thêm sao lưu và khôi phục dữ liệu. Bố mẹ tạo được file sao lưu chứa toàn bộ tiến trình, sao, nhật ký và cài đặt rồi tự cất vào Drive, Zalo hay email; khi đổi máy hoặc cài lại thì nhập file đó vào là có lại tất cả. Ứng dụng không gửi file đi đâu cả."
+  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.1.0/BeChoiBeHoc-1.1.0.apk",
+  "sizeBytes": 55612050,
+  "sha256": "a30d0a3e3e83877e2aa106aa165ad058f969a34fd63f77b1b430e11df5f5ecc4",
+  "notes": "Thêm ba game mới: Nhớ dãy âm thanh, Việc nào trước, Robot đi theo lệnh. Tổng cộng 8 game và 96 chặng. Sửa lỗi xếp hình báo sai khi bé kéo đúng mảnh trông giống hệt."
 }
