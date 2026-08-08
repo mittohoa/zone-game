@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bé Chơi Bé Học — game giáo dục tiếng Việt cho trẻ 3-6 tuổi</title>
+<meta name="description" content="5 game, 60 chặng chuẩn bị vào lớp 1. Không quảng cáo, không mua trong ứng dụng, không cần Internet, không thu thập dữ liệu.">
+<link rel="icon" href="assets/icon.png">
+<meta property="og:title" content="Bé Chơi Bé Học">
+<meta property="og:description" content="Game giáo dục tiếng Việt cho trẻ 3-6 tuổi. Vui nhưng dừng được.">
+<meta property="og:image" content="assets/logo.png">
+<style>
+  :root{
+    --bg:#fff8f0; --bg-deep:#ffefe2; --ink:#4a3b36; --ink-soft:#8a756c;
+    --pink:#ff8fa3; --blue:#7bc4e8; --yellow:#ffd166; --green:#7ed9a0;
+    --purple:#b39ddb; --orange:#ffa26b; --card:#ffffff; --line:#eaded2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#2b2320; --bg-deep:#352b27; --ink:#f6ece3; --ink-soft:#b8a396;
+      --card:#352b27; --line:#4a3c35;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  a{color:inherit}
+
+  header{
+    text-align:center;padding:64px 20px 48px;
+    background:linear-gradient(160deg,#ffd75e22,#ff7fa822);
+    border-bottom:1px solid var(--line);
+  }
+  header img.icon{width:132px;height:132px;border-radius:30px;
+    box-shadow:0 10px 0 #d08a7a33, 0 18px 40px #0000001f}
+  h1{font-size:2.5rem;margin:22px 0 6px;letter-spacing:-.5px}
+  .tagline{color:var(--ink-soft);font-size:1.15rem;margin:0}
+  .age{display:inline-block;margin-top:18px;padding:7px 18px;border-radius:999px;
+    background:var(--purple);color:#fff;font-weight:700;font-size:.95rem}
+
+  .cta{margin:34px 0 6px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;padding:15px 30px;border-radius:999px;
+    text-decoration:none;font-weight:800;font-size:1.05rem;border:none;
+    transition:transform .12s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-main{background:var(--green);color:#1e3d2b;box-shadow:0 5px 0 #4fae7a}
+  .btn-ghost{background:var(--card);color:var(--ink);box-shadow:0 5px 0 var(--line)}
+  .note{color:var(--ink-soft);font-size:.9rem;margin-top:14px}
+
+  section{padding:52px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:1.6rem;margin:0 0 6px}
+  .sub{color:var(--ink-soft);margin:0 0 26px}
+
+  .games{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+  .game{background:var(--card);border-radius:22px;padding:20px;
+    border:1px solid var(--line)}
+  .game .emoji{font-size:2.1rem;line-height:1}
+  .game h3{margin:8px 0 4px;font-size:1.12rem}
+  .game p{margin:0;color:var(--ink-soft);font-size:.93rem}
+  .game .lv{display:inline-block;margin-top:10px;padding:3px 11px;border-radius:999px;
+    background:var(--bg-deep);font-size:.8rem;font-weight:700;color:var(--ink-soft)}
+
+  .promises{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    list-style:none;padding:0;margin:0}
+  .promises li{background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:15px 18px;font-weight:600}
+  .promises li span{margin-right:9px}
+
+  table{width:100%;border-collapse:collapse;font-size:.95rem}
+  th,td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--line);
+    vertical-align:top}
+  th{color:var(--ink-soft);font-weight:700;font-size:.85rem;text-transform:uppercase;
+    letter-spacing:.4px}
+  .scroll{overflow-x:auto}
+
+  .shots{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+  .shots img{width:100%;border-radius:18px;border:1px solid var(--line)}
+  .shots-empty{background:var(--card);border:2px dashed var(--line);border-radius:18px;
+    padding:36px 20px;text-align:center;color:var(--ink-soft)}
+
+  footer{padding:38px 20px 56px;text-align:center;color:var(--ink-soft);font-size:.92rem}
+  footer a{color:var(--ink)}
+</style>
+</head>
+<body>
+
+<header>
+  <img class="icon" src="assets/icon.png" alt="Biểu tượng ứng dụng Bé Chơi Bé Học">
+  <h1>Bé Chơi Bé Học</h1>
+  <p class="tagline">Chơi vui · Học giỏi · Biết dừng</p>
+  <div><span class="age">Dành cho bé 3-6 tuổi</span></div>
+
+  <div class="cta">
+    <a class="btn btn-main" href="https://github.com/mittohoa/zone-game/releases/latest">⬇️ Tải bản dùng thử (APK)</a>
+    <a class="btn btn-ghost" href="privacy-policy.html">🔒 Quyền riêng tư</a>
+  </div>
+  <p class="note">Bản Android dùng thử. Ứng dụng đang trong giai đoạn hoàn thiện trước khi lên Google Play.</p>
+</header>
+
+<div class="wrap">
+
+<section>
+  <h2>Năm hòn đảo, 60 chặng chơi</h2>
+  <p class="sub">Mỗi game chia ba bậc Dễ → Vừa → Khó. Bậc Khó bám sát nội dung chuẩn bị vào lớp 1.</p>
+  <div class="games">
+    <div class="game"><div class="emoji">🧠</div><h3>Lật hình trí nhớ</h3>
+      <p>Ghép cặp hình, cặp chữ cái với hình, cặp chữ số với số lượng.</p>
+      <span class="lv">12 chặng</span></div>
+    <div class="game"><div class="emoji">🔢</div><h3>Đếm &amp; Toán vui</h3>
+      <p>Đếm tới 20, so sánh nhiều ít, thêm bớt trong phạm vi 10.</p>
+      <span class="lv">14 chặng</span></div>
+    <div class="game"><div class="emoji">🔤</div><h3>Bé học chữ cái</h3>
+      <p>29 chữ tiếng Việt, ghép vần, phân biệt B/D/Đ và P/Q dễ nhầm.</p>
+      <span class="lv">12 chặng</span></div>
+    <div class="game"><div class="emoji">🎨</div><h3>Bé tô màu</h3>
+      <p>Chín bức tranh, ba chặng cuối tô theo tranh mẫu.</p>
+      <span class="lv">10 chặng</span></div>
+    <div class="game"><div class="emoji">🧩</div><h3>Bé xếp hình</h3>
+      <p>Kéo mảnh ghép về đúng chỗ, từ 4 mảnh tới 16 mảnh.</p>
+      <span class="lv">12 chặng</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Vui nhưng dừng được</h2>
+  <p class="sub">Đây là phần được thiết kế kỹ nhất, không phải tính năng phụ.</p>
+  <ul class="promises">
+    <li><span>🚫</span>Không quảng cáo</li>
+    <li><span>💳</span>Không mua trong ứng dụng</li>
+    <li><span>📵</span>Không cần Internet</li>
+    <li><span>🔒</span>Không thu thập dữ liệu</li>
+    <li><span>⏱️</span>Hẹn giờ chơi cho bố mẹ</li>
+    <li><span>👀</span>Nhắc bé nghỉ mắt mỗi 20 phút</li>
+    <li><span>🏁</span>Mỗi chặng có điểm kết thúc rõ ràng</li>
+    <li><span>📊</span>Không bảng xếp hạng, không chuỗi ngày</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Những gì cố tình <em>không</em> có</h2>
+  <p class="sub">Mỗi dòng dưới đây là một cơ chế giữ chân phổ biến trong game trẻ em, và cách app này thay thế.</p>
+  <div class="scroll">
+  <table>
+    <tr><th>Cơ chế gây nghiện</th><th>App này làm gì</th></tr>
+    <tr><td>Chơi vô tận, càng lâu càng khó</td><td>Mỗi chặng có điểm kết thúc, xong là hiện màn chúc mừng</td></tr>
+    <tr><td>Chuỗi ngày, điểm danh hằng ngày</td><td>Không có. Nghỉ mấy hôm cũng không mất gì</td></tr>
+    <tr><td>Bảng xếp hạng, so điểm với trẻ khác</td><td>Không có. Chỉ chấm 1-3 sao theo số lần chưa đúng</td></tr>
+    <tr><td>Phần thưởng ngẫu nhiên</td><td>Phần thưởng cố định, bé đoán trước được</td></tr>
+    <tr><td>Đếm ngược gây áp lực</td><td>Không giới hạn thời gian trong mọi màn chơi</td></tr>
+    <tr><td>Tiếng “sai” chói tai</td><td>Chỉ một tiếng mềm đi xuống và câu “Chưa đúng, bé thử lại nhé!”</td></tr>
+  </table>
+  </div>
+</section>
+
+<section>
+  <h2>Hình ảnh</h2>
+  <p class="sub">Ảnh chụp từ máy Android.</p>
+  <div class="shots-empty">Ảnh chụp màn hình sẽ được cập nhật ở bản phát hành đầu tiên.</div>
+</section>
+
+<section>
+  <h2>Dành cho bố mẹ</h2>
+  <p class="sub">Ứng dụng có “Nhật ký của bé” ghi lại từng lượt chơi và tổng hợp thành sáu nhóm kỹ năng: trí nhớ, tư duy, ngôn ngữ, toán học, khéo tay, quan sát.</p>
+  <p>Đây là <strong>đánh giá mô tả</strong> giúp bố mẹ biết bé đang luyện nhiều nhóm nào và bỏ quên nhóm nào — không phải điểm số đem so sánh với trẻ khác.</p>
+  <p>Khu vực cài đặt được bảo vệ bằng cổng chặn dùng phép tính nhân mà trẻ mẫu giáo chưa làm được. Trong đó bố mẹ đặt được giới hạn thời gian mỗi phiên chơi; hết giờ, ứng dụng tự lưu bài đang dở rồi khoá màn hình lại và gợi ý bé ra ngoài chơi.</p>
+</section>
+
+<section style="border-bottom:none">
+  <h2>Cài đặt bản dùng thử</h2>
+  <ol>
+    <li>Tải file <code>.apk</code> ở <a href="https://github.com/mittohoa/zone-game/releases/latest">trang phát hành</a>.</li>
+    <li>Mở file vừa tải. Android sẽ hỏi cho phép cài ứng dụng từ nguồn này — chọn <em>Cho phép</em>.</li>
+    <li>Cần Android 7.0 trở lên.</li>
+  </ol>
+  <p class="note">Bản dùng thử chưa ký bằng khoá phát hành chính thức, nên khi có bản trên Google Play bạn sẽ cần gỡ bản này rồi cài lại. Dữ liệu chơi nằm trong máy và sẽ mất khi gỡ.</p>
+</section>
+
+</div>
+
+<footer>
+  <p><strong>Bé Chơi Bé Học</strong> — Hòa Ly Kỳ · <a href="mailto:mittohoa@gmail.com">mittohoa@gmail.com</a></p>
+  <p><a href="privacy-policy.html">Chính sách quyền riêng tư</a></p>
+</footer>
+
+</body>
+</html>
