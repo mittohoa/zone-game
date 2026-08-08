@@ -1,9 +1,9 @@
 {
-  "versionCode": 6,
-  "versionName": "1.1.2",
+  "versionCode": 7,
+  "versionName": "1.1.3",
   "releasedAt": "2026-08-08",
-  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.1.2/BeChoiBeHoc-1.1.2.apk",
-  "sizeBytes": 55759506,
-  "sha256": "9358647fb7a5c085bd0aa977e9c92ca16f8e8196270bd238e5655779d6cd2977",
-  "notes": "Sửa lỗi nghiêm trọng ở game xếp hình: mọi mảnh ghép đều hiện nguyên cả bức tranh thay vì một phần, nên mảnh nào cũng giống nhau và không thể chơi được. Khay mảnh giờ hiện hết trên một màn hình, không phải vuốt. Hoạt ảnh game nhớ dãy âm thanh rõ hơn hẳn. Nút Bố mẹ mở khoá lúc hết giờ đã bấm được. Đồng hồ chơi dừng khi app ở nền."
+  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.1.3/BeChoiBeHoc-1.1.3.apk",
+  "sizeBytes": 55775890,
+  "sha256": "abac9fa27f342bd02bc700e40cb0a48d171903fac8eb9b37a7592649d9461b8c",
+  "notes": "Bản đồ nhà cuộn ngang khi máy nằm ngang hoặc dùng tablet, đảo nhỏ lại nên thấy được 4-5 đảo cùng lúc. Bạn Bo trong màn chơi giờ kéo được sang chỗ khác và nhớ vị trí."
 }
