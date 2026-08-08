@@ -1,9 +1,9 @@
 {
-  "versionCode": 9,
-  "versionName": "1.2.1",
+  "versionCode": 10,
+  "versionName": "1.2.2",
   "releasedAt": "2026-08-08",
-  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.2.1/BeChoiBeHoc-1.2.1.apk",
-  "sizeBytes": 55808658,
-  "sha256": "68b469cef7d6fd0805d0a5af534b28606989a98b40f8b17b1d5e4f21ee01e4fc",
-  "notes": "Hoan thien song ngu: toan bo giao dien, 96 ten chang va cau huong dan da co ban tieng Anh. Che do English dung han bang chu cai 26 chu tieng Anh."
+  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.2.2/BeChoiBeHoc-1.2.2.apk",
+  "sizeBytes": 55825042,
+  "sha256": "b248a1d90cf0691d41f309e7cfe50d9d2ad14c35c057ea82c6a8a48dcc80849c",
+  "notes": "Song ngữ Việt - Anh đầy đủ: tên game, hướng dẫn, nhãn các bước trong game Việc nào trước. Bố mẹ chọn ngôn ngữ trong Góc bố mẹ."
 }
