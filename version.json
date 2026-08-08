@@ -1,9 +1,9 @@
 {
-  "versionCode": 4,
-  "versionName": "1.1.0",
+  "versionCode": 5,
+  "versionName": "1.1.1",
   "releasedAt": "2026-08-08",
-  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.1.0/BeChoiBeHoc-1.1.0.apk",
-  "sizeBytes": 55612050,
-  "sha256": "a30d0a3e3e83877e2aa106aa165ad058f969a34fd63f77b1b430e11df5f5ecc4",
-  "notes": "Thêm ba game mới: Nhớ dãy âm thanh, Việc nào trước, Robot đi theo lệnh. Tổng cộng 8 game và 96 chặng. Sửa lỗi xếp hình báo sai khi bé kéo đúng mảnh trông giống hệt."
+  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.1.1/BeChoiBeHoc-1.1.1.apk",
+  "sizeBytes": 55693970,
+  "sha256": "5e489feb41530504ffc902673c2762fb1e132954666eeca98699a11d9fc48595",
+  "notes": "Sửa đúng gốc rễ lỗi xếp hình: mỗi bức tranh giờ có khung cảnh nền lấp đầy khung nên không còn mảnh ghép nào trống trơn. Trước đây tranh con bướm cắt 16 mảnh thì có tới 8 mảnh là ô trắng, bé không có gì để nhìn mà xếp."
 }
