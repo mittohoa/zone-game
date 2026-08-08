@@ -1,9 +1,9 @@
 {
-  "versionCode": 2,
-  "versionName": "1.0.1",
+  "versionCode": 3,
+  "versionName": "1.0.2",
   "releasedAt": "2026-08-08",
-  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.0.1/BeChoiBeHoc-1.0.1.apk",
-  "sizeBytes": 54775854,
-  "sha256": "6012b982c736dd78cea615e18f9dceaefac8b9f810164958916c113b3e217f9d",
-  "notes": "Sửa lỗi từ đợt chơi thử đầu tiên. Game lật hình và xếp hình giờ chấm sao theo lối chơi của từng game chứ không dùng chung một thang. Sửa lỗi tô theo mẫu báo sai dù bé chọn đúng màu. Sửa nút Bố mẹ mở khoá lúc hết giờ chơi. Thêm công tắc mở khoá tất cả các chặng. Cảnh báo khi máy chưa cài giọng tiếng Việt. Sửa nhiều lỗi bố cục trên tablet và điện thoại nhỏ."
+  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.0.2/BeChoiBeHoc-1.0.2.apk",
+  "sizeBytes": 55382674,
+  "sha256": "fc5d2b2426c8a084906fe0cfef9e212dec26734819b204d63063be52b6ab3aa1",
+  "notes": "Thêm sao lưu và khôi phục dữ liệu. Bố mẹ tạo được file sao lưu chứa toàn bộ tiến trình, sao, nhật ký và cài đặt rồi tự cất vào Drive, Zalo hay email; khi đổi máy hoặc cài lại thì nhập file đó vào là có lại tất cả. Ứng dụng không gửi file đi đâu cả."
 }
