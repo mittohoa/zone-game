@@ -1,9 +1,9 @@
 {
-  "versionCode": 10,
-  "versionName": "1.2.2",
-  "releasedAt": "2026-08-08",
-  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.2.2/BeChoiBeHoc-1.2.2.apk",
-  "sizeBytes": 55825042,
-  "sha256": "b248a1d90cf0691d41f309e7cfe50d9d2ad14c35c057ea82c6a8a48dcc80849c",
-  "notes": "Song ngữ Việt - Anh đầy đủ: tên game, hướng dẫn, nhãn các bước trong game Việc nào trước. Bố mẹ chọn ngôn ngữ trong Góc bố mẹ."
+  "versionCode": 13,
+  "versionName": "1.5.0",
+  "releasedAt": "2026-08-09",
+  "apkUrl": "https://github.com/mittohoa/zone-game/releases/download/v1.5.0/BeChoiBeHoc-1.5.0.apk",
+  "sizeBytes": 56218258,
+  "sha256": "70ef6db97324f72f04e66af9e503efed098bdceb9fb317c46edc488f6f47861a",
+  "notes": "Thêm đảo Đường của Bo: lộ trình học tiếng Anh 30 chủ đề, 189 từ, có ôn tập cách quãng. Thêm nhạc nền do app tự soạn (mặc định tắt). Chạy mượt hơn."
 }
